@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forset Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body>
+  <!-- header area -->
+  <header class="bg-purple-100 h-fit">
+    <!-- header navigation area -->
+    <nav class="container mx-auto flex flex-wrap items-center justify-between w-full py-4 md:py-2 px-4 text-lg text-gray-700 ">
+      <div class="md:w-32 w-24">
+         <a style="color:#4c1d95;" href="#">
+          <img class="w-full" src="images/logo.png" alt="">
+         </a>
+       </div>
+       <!-- mobile toggoler icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+         </svg>
+      <!-- navigation items -->
+      <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+         <ul class=" pt-4 text-base text-gray-700 md:flex md:justify-between  md:pt-0">
+           <li>
+             <a class="md:p-4 font-medium py-2 block hover:text-purple-400" href="#"
+               >Features</a>
+           </li>
+           <li>
+             <a class="md:p-4 font-medium py-2 block hover:text-purple-400" href="#"
+               >Pricing</a>
+           </li>
+           <li>
+             <a class="md:p-4 font-medium py-2 block hover:text-purple-400" href="#"
+               >Customers</a>
+           </li>
+           <li>
+             <a class="md:p-4 font-medium py-2 block hover:text-purple-400" href="#"
+               >Blog</a>
+           </li>
+           <li>
+             <a class="md:p-4 font-medium py-2 block hover:text-purple-400 text-purple-500"
+               href="#">Sign Up</a>
+           </li>
+         </ul>
+       </div>
+   </nav>
+   <!-- header navigation area end -->
+   <!-- Hero section area -->
+   <section class="container pt-16 md:pt-28 pb-14 mx-auto md:flex justify-around items-center">
+    <div class="96 px-4 md:px-0">
+      <h1 class="uppercase text-5xl text-green-400 font-bold">be the forest <br> <span class="text-violet-900">of winter</span></h1>
+      <p class="text-xl mt-3">Collect your favorite jecket with Forset fashion.</p>
+      <button class="mt-6 text-lg font-bold text-violet-900 py-1 px-4 rounded-md border-2 border-violet-900 hover:bg-violet-900 hover:text-white transition ease-in-out delay-150 ">Orber Now</button>
+    </div>
+    <div class="pl-20 md:pl-0 w-96">
+      <img class="w-auto" src="images/HERO-IMG.png" alt="">
+    </div>
+   </section>
+   <!-- Hero section area end -->
+ </header>
+ <!-- header area end -->
+ <!-- main area -->
+<main class="container mx-auto bg-white">
+  <!-- woman jacket section -->
+  <section class="py-8  px-4 md:px-0">
+    <h1 class="text-3xl font-bold uppercase">Woman <span class="text-violet-900">Jacket</span></h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 my-4">
+
+      <div class="p-4 rounded space-y-2 shadow-xl">
+        <div class="bg-[#d3dede] p-10 rounded-xl">
+          <img class="w-full" src="images/jacket-1.png" alt="">
+        </div>
+        <h3 class="text-2xl font-semibold">Yellow Coat Jacket</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque reprehenderit nam amet at ex itaque iusto nihil quia eius?</p>
+        <div class="flex justify-between py-4">
+          <button class="text-md block font-semibold text-white bg-violet-900 py-1 px-2 rounded-md border-2 border-violet-900 hover:bg-transparent hover:text-violet-900 transition ease-in-out delay-150 ">Buy Now</button>
+          <span class="text-2xl font-semibold text-violet-900">$233</span>
+        </div>
+      </div>
+
+      <div class="p-4 rounded space-y-2 shadow-xl">
+        <div class="bg-[#d3dede] p-10 rounded-xl">
+          <img class="w-full" src="images/jacket-2.png" alt="">
+        </div>
+        <h3 class="text-2xl font-semibold">Ladies Jacket </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque reprehenderit nam amet at ex itaque iusto nihil quia eius?</p>
+        <div class="flex justify-between py-4">
+          <button class="text-md block font-semibold text-white bg-violet-900 py-1 px-2 rounded-md border-2 border-violet-900 hover:bg-transparent hover:text-violet-900 transition ease-in-out delay-150 ">Buy Now</button>
+          <span class="text-2xl font-semibold text-violet-900">$233</span>
+        </div>
+      </div>
+      
+      <div class="p-4 rounded space-y-2 shadow-xl">
+        <div class="bg-[#d3dede] p-10 rounded-xl">
+          <img class="w-full" src="images/jacket-3.png" alt="">
+        </div>
+        <h3 class="text-2xl font-semibold">Woman Leather Jacket</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque reprehenderit nam amet at ex itaque iusto nihil quia eius?</p>
+        <div class="flex justify-between py-4">
+          <button class="text-md block font-semibold text-white bg-violet-900 py-1 px-2 rounded-md border-2 border-violet-900 hover:bg-transparent hover:text-violet-900 transition ease-in-out delay-150 ">Buy Now</button>
+          <span class="text-2xl font-semibold text-violet-900">$233</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- woman jacket section end -->
+  <!-- man jacket section -->
+  <section class="py-8  px-4 md:px-0">
+    <h1 class="text-3xl font-bold uppercase">Man <span class="text-violet-900">Jacket</span></h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 my-4">
+
+      <div class="p-4 rounded space-y-2 shadow-xl">
+        <div class="bg-[#d3dede] p-10 rounded-xl">
+          <img class="w-full" src="images/jacket-4.png" alt="">
+        </div>
+        <h3 class="text-2xl font-semibold">Snowboard Jacket Mens</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque reprehenderit nam amet at ex itaque iusto nihil quia eius?</p>
+        <div class="flex justify-between py-4">
+          <button class="text-md block font-semibold text-white bg-violet-900 py-1 px-2 rounded-md border-2 border-violet-900 hover:bg-transparent hover:text-violet-900 transition ease-in-out delay-150 ">Buy Now</button>
+          <span class="text-2xl font-semibold text-violet-900">$233</span>
+        </div>
+      </div>
+
+      <div class="p-4 rounded space-y-2 shadow-xl">
+        <div class="bg-[#d3dede] p-10 rounded-xl">
+          <img class="w-full" src="images/jacket-5.png" alt="">
+        </div>
+        <h3 class="text-2xl font-semibold">Man Leather Jackets </h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque reprehenderit nam amet at ex itaque iusto nihil quia eius?</p>
+        <div class="flex justify-between py-4">
+          <button class="text-md block font-semibold text-white bg-violet-900 py-1 px-2 rounded-md border-2 border-violet-900 hover:bg-transparent hover:text-violet-900 transition ease-in-out delay-150 ">Buy Now</button>
+          <span class="text-2xl font-semibold text-violet-900">$233</span>
+        </div>
+      </div>
+      
+      <div class="p-4 rounded space-y-2 shadow-xl">
+        <div class="bg-[#d3dede] p-10 rounded-xl">
+          <img class="w-full" src="images/jacket-6.png" alt="">
+        </div>
+        <h3 class="text-2xl font-semibold">Man Casual Jackets</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis doloremque reprehenderit nam amet at ex itaque iusto nihil quia eius?</p>
+        <div class="flex justify-between py-4">
+          <button class="text-md block font-semibold text-white bg-violet-900 py-1 px-2 rounded-md border-2 border-violet-900 hover:bg-transparent hover:text-violet-900 transition ease-in-out delay-150 ">Buy Now</button>
+          <span class="text-2xl font-semibold text-violet-900">$233</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- man jacket section end -->
+  <!-- over viwe section -->
+  <section class="py-10 px-4 md:px-0">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
+      <div class="flex align-bottom justify-center  row-span-1 md:row-span-3">
+        <img class="" src="images/shopping.png" alt="">
+      </div>
+      <div class="flex p-6 bg-slate-50 rounded-lg shadow">
+        <div class="w-20">
+          <img class="w-52" src="images/house.png" alt="">
+        </div>
+        <div class="ml-6">
+          <h1 class="text-2xl font-bold mb-3">Find the Perfect Fit</h1>
+          <p>Everybody is different, which is why we 
+            offer styles for every body.</p>
+        </div>
+      </div>
+      <div class="flex  p-6 bg-slate-50 rounded-lg shadow">
+        <div class="w-20">
+          <img class="w-full" src="images/box.png" alt="">
+        </div>
+        <div class="ml-6">
+          <h1 class="text-2xl font-bold mb-3">Free Exchanges</h1>
+          <p>One of the many reasons you can shop 
+            with peace of mind.</p>
+        </div>
+      </div>
+      <div class="flex  p-6 bg-slate-50 rounded-lg shadow">
+        <div class="w-20">
+          <img class="w-20" src="images/question.png" alt="">
+        </div>
+        <div class="ml-6">
+          <h1 class="text-2xl font-bold mb-3">Contact Our Seller</h1>
+          <p>They are here to help you. That's quite 
+            literally what we pay them for.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- over viwe section end -->
+
+</main>
+ <!-- main area end -->
+
+ <!-- basic javascript for mobile navigation -->
+ <script>
+  const button = document.querySelector('#menu-button');
+const menu = document.querySelector('#menu');
+
+
+button.addEventListener('click', () => {
+  menu.classList.toggle('hidden');
+});
+ </script>
+</body>
+</html>
